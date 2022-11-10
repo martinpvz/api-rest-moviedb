@@ -1,0 +1,19 @@
+{
+  "name": "api-rest-moviedb",
+  "version": "1.0.0",
+  "description": "Proyecto de API REST con The Movie Database API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinpvz/api-rest-moviedb.git"
+  },
+  "author": "@martinpvz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinpvz/api-rest-moviedb/issues"
+  },
+  "homepage": "https://github.com/martinpvz/api-rest-moviedb#readme"
+}
