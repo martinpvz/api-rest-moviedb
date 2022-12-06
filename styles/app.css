@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #090911;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+.header__photo {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.header__photo img {
+  width: 100%;
+}
+.header__nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.header__nav--logo {
+  align-self: center;
+  margin-left: 30px;
+}
+.header__nav--buttons {
+  width: 150px;
+  margin: 0 30px 0 auto;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__info {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  right: 200px;
+  bottom: 60px;
+}
+.header__info--button {
+  width: 90px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  font: "Lato";
+  font-size: 14px;
+  cursor: pointer;
+}
+.header__info--title {
+  width: 300px;
+  height: auto;
+  font-size: 35px;
+  margin-top: 10px;
+}
+.header__info--title h1 {
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+.main .popular {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.main .popular__title {
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  font-weight: 400;
+}
+.main .popular__movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .popular .title {
+  height: 350px;
+  transition: all 0.2s ease-in-out;
+}
+.main .popular .title__name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+  font-style: none;
+}
+.main .popular .title__info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .popular .title__fav {
+  margin-left: 120px;
+  cursor: pointer;
+}
+.main .popular .title__date {
+  color: gray;
+  margin-top: 5px;
+}
+.main .popular .title:hover {
+  transform: scale(1.1);
+}
+.main .popular__button {
+  display: block;
+  width: 220px;
+  height: 45px;
+  border-radius: 15px;
+  color: white;
+  background-color: #F34096;
+  border: none;
+  margin: 15px 10px 0 auto;
+  font-size: 17px;
+  cursor: pointer;
+}
+.main .popular__button:hover {
+  background-color: #FC1E8A;
+}
+.main .one-movie {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.main .one-movie__img {
+  transition: all 0.2s ease-in-out;
+  width: 800px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}
+.main .one-movie__img--photo {
+  width: 800px;
+}
+.main .one-movie__img--play {
+  width: 80px;
+  position: absolute;
+  right: calc(50% - 40px);
+  top: calc(50% - 40px);
+}
+.main .one-movie__img:hover {
+  transform: scale(1.02);
+}
+
+/*# sourceMappingURL=app.css.map */

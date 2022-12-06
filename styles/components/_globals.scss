@@ -1,0 +1,14 @@
+$Fuente1: 'Lato', sans-serif;
+$color-primario: #090911;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $color-primario;
+    font-family: $Fuente1;
+    color: white;
+}
+
